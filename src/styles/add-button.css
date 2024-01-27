@@ -1,0 +1,38 @@
+.add-button {
+  background-color: #485ff7;
+  border-radius: 50%;
+  color: #f7f2da;
+  height: 48px;
+  width: 48px;
+
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  z-index: 999;
+}
+
+.modal {
+    position: absolute;
+    top: 40vh;
+    left: 30vw;
+  }
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+.prompt {
+  border: none;
+  border-radius: 8vmin;
+  min-width: 40vw;
+  min-height: 10vh;
+  padding-left: 24px;
+
+  font-family: 'destine';
+  font-size: calc(10px + 1vmin);
+}

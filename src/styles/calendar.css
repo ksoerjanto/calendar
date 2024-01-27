@@ -1,0 +1,126 @@
+.rbc-toolbar button {
+    border: unset !important;
+    cursor: pointer;
+
+    color: #061eba !important;
+    font-family: 'kayonest';
+    font-weight: 700;
+    font-size: calc(10px + 1vmin);
+}
+
+.rbc-toolbar button.rbc-active {
+    background-color: #ede4be !important;
+    box-shadow: unset !important;
+    text-decoration: underline;
+}
+
+.rbc-toolbar button:hover {
+    background-color: #ede4be !important;
+    text-decoration: underline;
+}
+
+.rbc-toolbar button:focus {
+    background-color: #ede4be !important;
+}
+
+.rbc-button-link {
+    text-decoration: none !important;
+}
+
+.rbc-toolbar-label {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'kayonest';
+    font-weight: 700;
+    font-size: calc(10px + 3vmin);
+    color: #061eba;
+}
+
+.rbc-header {
+    color: #485ff7;
+}
+
+.rbc-button-link {
+    font-family: 'destine' !important;
+    font-weight: 700;
+    font-size: calc(10px + 1vmin) !important;
+}
+
+.rbc-label {
+    color: #485ff7;
+}
+
+.rbc-event {
+    background-color: #061eba !important; 
+}
+
+.rbc-time-view {
+    border: unset !important;
+}
+
+.rbc-time-slot {
+    border: unset !important;
+}
+
+.rbc-today {
+    background-color: #f7f2da !important;
+}
+
+.event-modal {
+    background-color: white;
+    min-width: 30vw;
+    margin: 16px;
+    position: absolute;
+    top: 40vh;
+    left: 30vw;
+}
+
+.event-header {
+    background-color: #485ff7; 
+    color: white;
+    font-family: 'destine';
+    font-size: 24px;
+    padding: 16px 24px;
+}
+
+.event-body {
+    color: #434445;
+    padding: 24px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.action-button {
+    background-color: #485ff7;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 30px;
+    padding-right: 8px;
+
+    :hover {
+        cursor: pointer;
+    }
+}
+
+.icon {
+    padding-right: 8px;
+    color: #434445;
+}
+
+span {
+    padding-right: 8px;
+}
+
+.event-attendees {
+    padding-top: 16px;
+}
+
+.attendees-list {
+    padding: 4px 0 16px 24px;
+}

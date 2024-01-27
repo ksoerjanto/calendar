@@ -1,0 +1,48 @@
+.event-editor {
+    background-color: white;
+    color: black;
+    min-width: 30vw;
+    z-index: 999;
+}
+
+.editor-header {
+    background-color: #485ff7;
+    color: white;
+    font-family: 'destine';
+    font-size: 24px;
+    text-align: start;
+    padding: 16px 24px;
+}
+
+.field-editor {
+    padding-top: 16px;
+    padding-left: 24px;
+}
+
+.field-editor label {
+    padding-right: 16px;
+}
+
+.field-editor input {
+    border: none;
+    border-bottom: 1px solid #061eba;
+    outline: none;
+    padding: 8px;
+    width: 100px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+}
+
+.button-group button {
+    border: none;
+    background-color: white;
+    color: #061eba;
+    cursor: pointer;
+    font-family: 'kayonest';
+    font-weight: 700;
+    font-size: calc(10px + 1vmin);
+}
